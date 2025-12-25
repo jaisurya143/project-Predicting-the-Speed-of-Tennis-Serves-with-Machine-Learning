@@ -1,13 +1,13 @@
-Title of the Project
+## Title of the Project
 
 Predicting the Speed of Tennis Serves with Machine Learning
 
-About
+## About
 
 Predicting the speed of tennis serves is a valuable task in sports analytics, player performance evaluation, and training optimization. This project presents a machine learning–based system to predict tennis serve speed using biomechanical and equipment-related features such as player height, racket type, spin, serve angle, and power.
 The study focuses on comparing Random Forest with other regression models to evaluate accuracy and robustness in predicting serve speed.
 
-Features
+## Features
 
 The proposed tennis serve speed prediction system offers the following features:
 
@@ -25,7 +25,7 @@ Supports future real-time integration
 
 Easy deployment for sports analytics platforms
 
-Requirements
+## Requirements
 
 Input Parameters:
 
@@ -63,7 +63,7 @@ Python-based implementation
 
 Extendable to web or mobile applications
 
-System Architecture
+## System Architecture
 
 Data Collection – Tennis serve parameters are collected or simulated
 
@@ -77,40 +77,38 @@ Prediction – Serve speed predicted for unseen data
 
 Evaluation – Model comparison using R² accuracy
 
-Output
-Output 1 – Random Forest vs XGBoost
+## Output
+## Output 1 – Random Forest vs XGBoost
 
 Random Forest Accuracy: ~89–92%
 
 XGBoost Accuracy: ~90–93%
 
-Output 2 – Random Forest vs SVR
+## Output 2 – Random Forest vs SVR
 
 Random Forest Accuracy: ~88–91%
 
 SVR Accuracy: ~85–89%
 
-Output 3 – Random Forest vs ANN
+## Output 3 – Random Forest vs ANN
 
 Random Forest Accuracy: ~88–92%
 
 ANN Accuracy: ~87–91%
 
-Output 4 – Random Forest vs KNN
+## Output 4 – Random Forest vs KNN
 
 Random Forest Accuracy: ~89–92%
 
 KNN Accuracy: ~84–88%
 
-Note: Accuracy values may vary depending on dataset size, feature distribution, and hyperparameter tuning.
-
-Results and Impact
+## Results and Impact
 
 The experimental results demonstrate that Random Forest consistently performs well across all comparisons due to its robustness and ability to handle nonlinear relationships. XGBoost shows competitive performance with slightly higher accuracy in some cases, while ANN and SVR perform well after proper scaling.
 
 This project highlights the effectiveness of machine learning in sports analytics and provides a foundation for developing intelligent coaching systems, performance monitoring tools, and predictive sports technologies.
 
-Articles Published / References
+## Articles Published / References
 
 1. Author: Wei, X., & Hu, Y.
 Year: 2019
